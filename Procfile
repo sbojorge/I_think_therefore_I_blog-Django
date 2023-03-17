@@ -1,1 +1,1 @@
-web: gunicorn my-django-blog-sbo.wsgi
+web: gunicorn codestar.wsgi
