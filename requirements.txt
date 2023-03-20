@@ -1,9 +1,20 @@
-asgiref==3.6.0
-cloudinary==1.32.0
-dj-database-url==0.5.0
-dj3-cloudinary-storage==0.0.6
-Django==3.2.18
-gunicorn==20.1.0
-psycopg2==2.9.5
-pytz==2022.7.1
-sqlparse==0.4.3
+Collecting django-summernote
+  Downloading django-summernote-0.8.20.0.tar.gz (288 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 288.5/288.5 kB 8.2 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: django in /workspace/.pip-modules/lib/python3.8/site-packages (from django-summernote) (3.2.18)
+Requirement already satisfied: bleach in /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages (from django-summernote) (6.0.0)
+Requirement already satisfied: webencodings in /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages (from bleach->django-summernote) (0.5.1)
+Requirement already satisfied: six>=1.9.0 in /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages (from bleach->django-summernote) (1.16.0)
+Requirement already satisfied: sqlparse>=0.2.2 in /workspace/.pip-modules/lib/python3.8/site-packages (from django->django-summernote) (0.4.3)
+Requirement already satisfied: pytz in /workspace/.pip-modules/lib/python3.8/site-packages (from django->django-summernote) (2022.7.1)
+Requirement already satisfied: asgiref<4,>=3.3.2 in /workspace/.pip-modules/lib/python3.8/site-packages (from django->django-summernote) (3.6.0)
+Building wheels for collected packages: django-summernote
+  Building wheel for django-summernote (setup.py): started
+  Building wheel for django-summernote (setup.py): finished with status 'done'
+  Created wheel for django-summernote: filename=django_summernote-0.8.20.0-py3-none-any.whl size=352968 sha256=2c73c424ceabcb9b60cddab67c90b8f6b09786363251a1b50a38fc76fc326674
+  Stored in directory: /home/gitpod/.cache/pip/wheels/8a/21/54/299e8e2a664303cb9c9d41fb03cd374e11f4253891a9710087
+Successfully built django-summernote
+Installing collected packages: django-summernote
+Successfully installed django-summernote-0.8.20.0
